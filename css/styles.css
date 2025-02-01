@@ -16,11 +16,125 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--dark-blue);
+    background-color: var(--light-gray);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;  
 
+}
+
+.container {
+    max-width:350px;
+    padding: 2rem 1rem;
+}
+
+.container header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.container header nav{
+    text-align: center;
+}
+
+.container header nav h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--dark-blue);
+}
+
+.container header nav h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-bottom: 1rem;
+}
+
+.container header nav p {
+    font-size: 1rem;
+    color: var(--grayish-blue);
+    margin-bottom: 1rem;
+}
+
+
+.container main {
+    display: flex;;
+}
+
+.container main section {
+    gap: 1rem;
+}
+
+.container main section .card {
+    background-color: white;
+    text-align: end;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.container main section .supervisor {
+    border-top: 5px solid var(--cyan); 
+}
+
+.container main section .team-builder {
+    border-top: 5px solid var(--red); 
+}
+
+.container main section .karma {
+    border-top: 5px solid var(--orange); 
+}
+
+.container main section .calculator {
+    border-top: 5px solid var(--blue); 
+}
+
+.container main section .card .card-description {
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+    text-align: start;
+}
+
+.container main section .card .card-description h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-bottom: 0.2rem;
+}
+
+.container main section .card .card-description p {
+    font-size: 0.9rem;
+    color: var(--grayish-blue);
+}
+
+.container main section .card img {
+    width: 25%;
+}
+
+.container main section .card:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center; 
+    margin-top: 2rem;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%);
+    text-decoration: none;
+
 }
+
