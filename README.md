@@ -24,7 +24,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/Macbook-Air-rizkibagus.github.io.png)
-![](./images/iPhone-13-PRO-rizkibagus.github.io.png)
 
 
 ### Links
