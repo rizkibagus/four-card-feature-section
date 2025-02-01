@@ -65,7 +65,7 @@ body {
 
 
 .container main {
-    display: flex;;
+    display: flex;
 }
 
 .container main section {
@@ -130,11 +130,87 @@ body {
     font-size: 11px;
     font-weight: 700;
     text-align: center; 
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%);
     text-decoration: none;
+
+}
+
+
+@media (min-width: 768px) {
+
+    body {
+        line-height: normal;
+    }
+
+    .container {
+        max-width: 1000px;
+        padding: 2rem 1rem;
+    }
+
+    .container header {
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .container header nav h1 {
+        font-size: 2rem;
+    }
+
+    .container header nav h2 {
+        font-size: 2rem;
+    }
+
+    .container header nav p {
+        font-size: 1.2rem;
+    }
+    
+    .container main {
+        padding: 1rem;
+    }
+
+    .container main section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 1.5rem;
+        justify-content: center;
+        align-items: center;
+   
+    }
+
+    .container main section .card {
+        width: 100%;
+    }
+
+    .container main section .supervisor{
+        grid-column: 1; 
+        grid-row: 1 / span 2;
+        align-self: center;
+    }
+
+    .container main section .team-builder{
+        grid-column: 2; 
+        grid-row: 1;
+    }
+
+    .container main section .karma{
+         grid-column: 2;
+         grid-row: 2;
+    }
+
+    .container main section .calculator{
+        grid-column: 3;
+        grid-row: 1 / span 2;
+        align-self: center;
+    }
+
+    .container main section .card img {
+        width: 20%;
+    }
 
 }
 
