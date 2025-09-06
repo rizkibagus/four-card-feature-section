@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/rizkibagus/four-card-feature-section)
-- Live Site URL: [Add live site URL here](https://rizkibagus.github.io/four-card-feature-section/)
+- Solution URL: (https://github.com/rizkibagus/four-card-feature-section)
+- Live Site URL: (https://rizkibagus.github.io/four-card-feature-section/)
 
 ## My process
 
